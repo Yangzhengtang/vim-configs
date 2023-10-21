@@ -9,9 +9,11 @@ call vundle#begin()
 " Removing tailing white spaces
 Plugin 'ShowTrailingWhitespace'
 
+" Color themes
 " https://github.com/sainnhe/sonokai
-" A color themem
 Plugin 'sainnhe/sonokai'
+" https://github.com/tomasr/molokai
+Plugin 'tomasr/molokai'
 
 " https://github.com/preservim/nerdtree
 " Tree file browser

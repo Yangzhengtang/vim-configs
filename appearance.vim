@@ -2,8 +2,10 @@
 set go=
 
 " Color Theme
-colorscheme sonokai
-set background=light
+" colorscheme sonokai
+" set background=light
+colorscheme molokai
+let g:molokai_original = 1
 
 " Syntax Highlighting
 syntax on
@@ -27,4 +29,5 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 
-
+" Width for NerdTree (needs nerdtree)
+let g:NERDTreeWinSize=25
