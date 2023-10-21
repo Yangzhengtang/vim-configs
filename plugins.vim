@@ -2,7 +2,9 @@ set nocompatible
 filetype off
 
 " set the runtime path to include Vundle and initialize
-set rtp+=./Vundle.vim
+let s:current_dir = expand('<sfile>:p:h')
+let s:vundle_dir = s:current_dir . "/Vundle.vim"
+execute 'set rtp+=' . s:vundle_dir
 call vundle#begin()
 
 " https://github.com/vim-scripts/ShowTrailingWhitespace
