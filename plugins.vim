@@ -19,6 +19,9 @@ Plugin 'tomasr/molokai'
 " Tree file browser
 Plugin 'preservim/nerdtree'
 
+" https://github.com/MattesGroeger/vim-bookmarks
+Plugin 'MattesGroeger/vim-bookmarks'
+
 call vundle#end()
 filetype on
 filetype indent on

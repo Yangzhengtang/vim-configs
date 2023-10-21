@@ -1,0 +1,3 @@
+let l:bm_file_version = 1
+let l:bm_sessions = {'default': {'/Users/zhengtang/Documents/Projects/vim-configs/appearance.vim': [{'sign_idx': 9501, 'line_nr': 17, 'content': 'highlight CursorLine term=bold cterm=NONE ctermfg=NONE ctermbg=235 gui=NONE guifg=NONE guibg=NONE'},{'sign_idx': 9500, 'line_nr': 23, 'content': '" Show Numbers or Not'},],}}
+let l:bm_current_session = 'default'

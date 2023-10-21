@@ -31,3 +31,12 @@ set shiftwidth=4
 
 " Width for NerdTree (needs nerdtree)
 let g:NERDTreeWinSize=25
+
+" Bookmarks Highlighting (needs vim-bookmarks)
+highlight BookmarkSign ctermbg=93 ctermfg=227
+highlight BookmarkLine term=bold cterm=NONE ctermfg=NONE ctermbg=245 gui=NONE guifg=NONE guibg=NONE
+let g:bookmark_sign = '!'
+let g:bookmark_highlight_lines = 1
+" Bookmarks per workspace
+let g:bookmark_save_per_working_dir = 1
+let g:bookmark_auto_save = 1
